@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Server side\
+\
+I am listening\
+Client is connected to the Server\
+client's port no : 55147\
+Client is connected to the Server\
+client's port no : 55148\
+Client is connected to the Server\
+client's port no : 55149\
+Get message from TA and now to execute this method :pickNumberRandomly\
+TA comes and picks a number\
+TA's number is randomly being picked, and the number is 647\
+Get message from TA and now to execute this method :numberIncrease\
+TA's number is increased by 3, and now the number is 650\
+Get message from TA and now to execute this method :numberDecrease\
+TA's number is decreased by 2, and now the number is 648\
+Get message from TA and now to execute this method :thingYouGet\
+Congrats TA! You get the consolation prize \
+Get message from TB and now to execute this method :pickNumberRandomly\
+TB comes and picks a number\
+TB's number is randomly being picked, and the number is 478\
+Get message from TB and now to execute this method :numberIncrease\
+TB's number is increased by 2, and now the number is 480\
+Get message from TB and now to execute this method :numberDecrease\
+TB's number is decreased by 1, and now the number is 479\
+Get message from TB and now to execute this method :thingYouGet\
+Sorry TB, you get nothing \
+\
+\
+\
+Client side\
+\
+It's connected\
+My port :55147\
+Server's port :3500\
+Connect to the server.\
+TA wants to execute pickNumberRandomly() method, TA needs TAHelper.\
+Connect to the server.\
+TB wants to execute pickNumberRandomly() method, TB needs TAHelper.\
+TA receives the number first time, she gets 647\
+TA wants to execute numberIncrease() method, TA needs TAHelper.\
+TA receives the number second time, now she gets 650\
+TA wants to execute numberDecrease() method, TA needs TAHelper.\
+TA receives the number final number, she gets 648\
+TA wants to execute thingYouGet() method, TA needs TAHelper.\
+TA is done with the game and she gets consolation prize\
+TB receives the number first time, he gets 478\
+TB wants to execute numberIncrease() method, TA needs TAHelper.\
+TB receives the number second time, now he gets 480\
+TB wants to execute numberDecrease() method, TB needs TAHelper.\
+TB receives the number final number, he gets 479\
+TB wants to execute thingYouGet() method, TB needs TAHelper.\
+TB is done with the game and he gets nothing}
